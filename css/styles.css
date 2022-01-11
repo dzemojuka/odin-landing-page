@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    flex-direction: column;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1F2937;
+}
+ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.header-links{
+    margin-left: auto;
+}
