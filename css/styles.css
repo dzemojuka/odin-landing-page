@@ -174,3 +174,8 @@ color: #e5e7eb;
     border-radius: 16px;
     border: solid #F9FAF8 3px;
   }
+  .footer {
+    background-color:#1F2937;
+    text-align:center;
+    padding:36px;
+  }
