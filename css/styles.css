@@ -137,3 +137,40 @@ font-weight: lighter;
     margin: 0;
     margin-top: -50px;
 }
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta .container{
+  width:800px;
+  height:150px;
+  background-color: #3882F6;
+  border-radius: 18px;
+  margin:64px;
+  display:flex;
+  align-items:center;
+}
+.left-part{
+    margin-left:48px;
+  }
+  
+  .right-part {
+    margin-left:auto;
+    padding:48px;
+  }
+  .cta h2 {
+      font-size: 18px;
+  }
+  .cta h3 {
+font-size: 12px;
+color: #e5e7eb;
+  }
+  .cta button{
+    width: 160px;
+    color: #F9FAF8; 
+    font-size: 18px;
+    padding: 8px 24px;
+    border-radius: 16px;
+    border: solid #F9FAF8 3px;
+  }
