@@ -70,3 +70,40 @@ button{
     border-radius: 16px;
     border: 0;
 }
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 128px;
+    margin-top: 32px;
+    margin:32px 0px 32px 128px
+}
+.information-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.information-section h3{
+    color: gray;
+    font-size: 16px;
+}
+.square {
+    width:150px;
+  height:150px;
+  border:solid #3882f6 5px;
+  border-radius: 16px;
+}
+.information-lower{
+    flex: 1;
+    display: flex;
+    gap: 24px;
+}
+.information-section .container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
